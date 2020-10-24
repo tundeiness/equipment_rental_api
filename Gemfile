@@ -30,6 +30,8 @@ group :development, :test do
   gem 'active_model_serializers'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'factory_bot_rails', '~> 6.1'
+  gem 'faker', '~> 2.13'
   gem "rspec-rails", "~> 3.8"
 end
 

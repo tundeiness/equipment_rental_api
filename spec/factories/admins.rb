@@ -1,11 +1,11 @@
 FactoryBot.define do
   factory :admin do
-    username { "MyString" }
-    firstname { "MyString" }
-    lastname { "MyString" }
-    phone { "MyString" }
-    email { "MyString" }
+    username { "joeAdmin" }
+    firstname { "Joseph" }
+    lastname { "Administer" }
     role { 1 }
-    password_digest { "MyString" }
+    phone { "180-345-4455" }
+    email { "joeadmin@gmail.com" }
+    password_digest { "12345678" }
   end
 end
